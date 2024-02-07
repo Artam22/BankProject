@@ -51,8 +51,6 @@ public class BankSimulation {
 
     // public void run() METODU, ÇIKIŞ YAPILANA KADAR ÇALIŞACAK OLAN ANA METOD
     public void run() {
-        int choice = scanner.nextInt();
-        scanner.nextLine();
         // TODO ANA MENÜYÜ OLUŞTURUN VE MÜŞTERİYE YAPTIRDIĞINIZ SEÇİMLERLE, İLGİLİ METODLARA YÖNLENDİRİN
         /*
          * "\n----- BANKA İŞLEMLERİ -----"
@@ -75,6 +73,8 @@ public class BankSimulation {
                 "\n3. Müşteri İşlemleri" +
                 "\n0. Çıkış" +
                 "\nSeçiminizi yapın:");
+        int choice = scanner.nextInt();
+        scanner.nextLine();
         switch (choice) {
             case 1:
                 listCustomers();
