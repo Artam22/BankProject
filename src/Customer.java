@@ -71,15 +71,9 @@ public class Customer {
 
     //  TODO TO STRING METODU OLUŞTURUN
 
-    @Override
-    public String toString() {
-        return "Customer{" +
-                "customerId=" + customerId +
-                ", firstName='" + firstName + '\'' +
-                ", lastName='" + lastName + '\'' +
-                ", city='" + city + '\'' +
-                '}';
-    }
+
+
+
 
 
     /////////////////////////////////////////////////////////////////////////////////
