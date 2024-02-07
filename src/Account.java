@@ -3,15 +3,19 @@
 public class Account {
 
     // FIELDS
-    private final int accountId;
+    private int accountId;
     private int customerId;
     private double balance;
     private AccountType accountType;
 
-    private static int idC = 1000;
+    private static int idC = 9000;
 
 
     // CONSTRUCTORS
+
+
+    public Account() {
+    }
 
     public Account(int customerId, AccountType accountType) {
         this.accountId = idC++;

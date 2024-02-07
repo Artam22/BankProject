@@ -9,12 +9,12 @@ public class Customer {
      customerId Integer,
      firstName, lastName, city String OLACAK
      */
-    private final int customerId;
+    private int customerId;
     private String firstName;
     private String lastName;
     private String city;
 
-    private static int idC = 1;
+    private static int idC = 1000;
 
 
     ///////////////////////////////////////////////////////////////////////////////////
@@ -22,6 +22,9 @@ public class Customer {
     // CONSTRUCTORS
     // TODO BOŞ CONSTRUCTOR OLUŞTURUN
     // PARAMTRELERİ int customerId, String firstName, String lastName, String city OLAN CONSTRUCTOR OLUŞTURUN
+
+    public Customer() {
+    }
 
     public Customer(String firstName, String lastName, String city) {
         this.customerId = idC++;
